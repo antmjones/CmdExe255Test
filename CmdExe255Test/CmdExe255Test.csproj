@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>CmdExe255Test</AssemblyName>
+    <RootNamespace>CmdExe255Test</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Test.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
